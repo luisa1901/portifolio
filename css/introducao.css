@@ -3,16 +3,17 @@ body {
     background-color: lightsteelblue;
 }
 
-ul {
+#menu {
     top: 20px;
     background-image: linear-gradient(to right, #009fff, #ec2f4b);
     color: white;
     height: 50px;
     border-radius: 30px;
     box-shadow: 20px;
+
 }
 
-li {
+.menuu {
 
     display: inline;
     margin: 25px;
@@ -29,26 +30,21 @@ h1 {
 
 }
 
-
-
-
-#nome {
-
-    font-family: 'Lobster', cursive;
-    color: #3C5291;
-    font-size: 40px;
-    text-align: center;
-
-
-
-}
-
 a {
 
     font-family: 'Ranchers', cursive;
     color: white;
     font-size: 30px;
 
+
+
+}
+
+p {
+
+    text-align: justify;
+    padding-right: 100px;
+    padding-left: 100px;
 
 
 }
