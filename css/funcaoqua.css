@@ -51,6 +51,7 @@ a {
 
     padding-right: 200px;
     padding-left: 90px;
+    text-align: justify;
 }
 
 #bhaskara {
@@ -66,6 +67,23 @@ a {
     vertical-align: middle;
     padding: 90px;
 
+
+}
+
+#questao {
+
+    padding-left: 90px;
+
+
+}
+
+
+#proximo {
+    font-family: 'Ranchers', cursive;
+    color: black;
+    font-size: 30px;
+    padding: 200px;
+    vertical-align: right;
 
 
 }

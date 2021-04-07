@@ -30,7 +30,7 @@ h1 {
 
 }
 
-a {
+.links {
 
     font-family: 'Ranchers', cursive;
     color: white;
@@ -51,4 +51,36 @@ a {
 
     padding-right: 200px;
     padding-left: 90px;
+    text-align: justify;
+}
+
+.soma {
+
+    padding-left: 90px;
+
+
+}
+
+.questao {
+
+    padding-left: 90px;
+
+}
+
+#voltar {
+
+    font-family: 'Ranchers', cursive;
+    color: black;
+    font-size: 30px;
+    padding: 100px;
+
+}
+
+#proximo {
+    font-family: 'Ranchers', cursive;
+    color: black;
+    font-size: 30px;
+    padding: 200px;
+
+
 }

@@ -19,14 +19,18 @@
 
     <ul id="menu">
 
-        <a href="index.html">
+        <a href="index.html" class="links">
             <li class="menuu"> Home </li>
         </a>
-        <Li class="menuu"> Introdução </Li>
-        <a href="sumario.html">
+        <a href="introducao.html" class="links">
+            <Li class="menuu"> Introdução </Li>
+        </a>
+        <a href="sumario.html" class="links">
             <li class="menuu"> Sumário </li>
         </a>
-        <li class="menuu"> Conclusão </li>
+        <a href="conclusao.html" class="links">
+            <li class="menuu"> Conclusão </li>
+        </a>
 
 
     </ul>
@@ -53,14 +57,20 @@
     </p>
     <ul class="texto1">
 
-        <li> an = a1 + (n-1)r</li>
+        <li> a<sub>n</sub> = a<sub>1</sub> + (n-1)r</li>
 
     </ul>
 
-    <p class="texto1">an -> o termo geral</p>
-    <p class="texto1"> a1 -> o primeiro termo da PA</p>
+    <p class="texto1">a<sub>n</sub> -> o termo geral</p>
+    <p class="texto1"> a<sub>1</sub> -> o primeiro termo da PA</p>
     <p class="texto1"> n -> número de termos ou a posição do termo a ser encontrado </p>
     <p class="texto1">r -> razão (constante r)</p>
+
+    <h3 class="texto1"> Soma de elementos em uma PA finita</h3>
+    <p class="texto1"> Existe uma fórmula que possibilita somar todos os termos de uma PA finita:
+    </p>
+
+    <img src="imagens/somapa.png" class="soma">
 
     <h3 class="subtitulo"> Progressão geométrica </h3>
 
@@ -81,18 +91,78 @@
 
     </ul>
 
-    <P>Assim como a PA também existem uma fórmula geral:
+    <P class="texto1">Assim como a PA também existem uma fórmula geral:
     </P>
 
-    <ul>
-        <li> an = a1 * qn-1</li>
+    <ul class="texto1">
+        <li> a<sub>n</sub> = a<sub>1</sub> * q<sup>n-1</sup></li>
 
     </ul>
 
-    <p class="texto1">an -> o termo geral</p>
-    <p class="texto1"> a1 -> o primeiro termo da PG</p>
+    <p class="texto1">a<sub>n</sub> -> o termo geral</p>
+    <p class="texto1"> a<sub>1</sub> -> o primeiro termo da PG</p>
     <p class="texto1"> n -> número de termos ou a posição do termo a ser encontrado </p>
     <p class="texto1">q -> razão (constante q)</p>
 
+    <h3 class="texto1"> Soma de elementos PG finitas</h3>
+    <p class="texto1"> Para PG também existe uma fórmula para a soma de finitos elementos, é utilizada quando q for diferente de 1:
+    </p>
+
+    <img src="imagens/somapg.png" class="soma">
+
+    <h3 class="subtitulo"> Interpolação </h3>
+    <ul class="texto1">
+
+        <li> Aritmética: a interpolação aritmética consiste em inserir um número x de números dentro de uma PA. Para isso nos informam sempre o a<sub>1</sub> (termo inicial) e o a<sub>n</sub> (o outro extremo), o principal objetivo da interpolação é descobrir a constante “r”, para assim dar a continuidade a sequência. Para isso utilizaremos a fórmula geral da PA, para descobrir o “n” é só somar o número de elementos a serem interpolados + 2 (termo inicial e final). Descobrindo o “n” já temos todas as informações para completar a equação e assim descobrir o “r” e realizar a interpolação. </li>
+
+        <li> Geométrica: a interpolação geométrica segue o mesmo propósito, inserir termo dentro de uma PG. No geral todos os passos são os mesmos, a única diferença é que depois de descobrir o “n” deve-se utilizar a fórmula geral da PG.
+        </li>
+
+    </ul>
+
+    <h3 class="subtitulo"> Exercícios: </h3>
+
+    <p class="texto1"> Agora vou explicar um pouco sobre dois exercícios, um de PA e outro de PG. O primeiro que escolhi foi a questão 1 do terceiro trabalho. Resolvi escolher essa, pois é fácil de resolver e utiliza uma das fórmulas.
+    </p>
+
+    <img src="imagens/questaopa.png" class="questao">
+
+    <ol class="texto1">
+
+        <li> A questão pede para calcular os 50 primeiros termos da PA, para isso temos a fórmula mencionada anteriormente. Porém para conseguir utilizar a fórmula da soma precisamos primeiro encontrar o “an” que no caso seria o 50o número, pois precisamos calcular a soma dos primeiros 50 números. Para isso devemos usar a fórmula geral a<sub>n</sub> = a<sub>1</sub> + (n-1)r.
+        </li>
+        <li> Para descobrir a “r” é só diminuir o segundo número pelo primeiro, ou seja, 5-1=4. Sendo assim fica: a<sub>50</sub> = 1 + (50-1)*4. Depois de realizar as operações conseguimos descobrir que o 50o número é: a50 = 197.
+        </li>
+        <li> Agora o último passo é apenas substituir os dados na fórmula da soma: S<sub>50</sub>= ((1+197)*50) / 2. Realizando as operações chegamos ao resultado: S50 = 4950.
+        </li>
+
+    </ol>
+
+    <p class="texto1"> A próxima questão é a número 3 do terceiro trabalho:
+    </p>
+
+
+    <img src="imagens/questaopg.png" class="questao">
+    <ol class="texto1">
+
+        <li> Para resolver essa questão é preciso inicialmente organizar esses dados. Pensando da forma que a<sub>1</sub> = x + 1, a<sub>2</sub> = x + 11, a<sub>3</sub> = x + 41.
+        </li>
+        <li> Portanto, para conseguirmos achar o x podemos usar uma das relações, que diz que o “q” é igual ao a2/a1 que também é igual a a3/a2. Sendo assim temos que (x+11)/(x+1) = (x+41)/(x+11). A partir de então é só realizar multiplicação cruzada, obtendo a equação: (x+11)2 = (x+1)*(x+41).</li>
+        <li> Realizando as operações, chegamos a conclusão de que x = 4.
+            OBS: eu errei uma das potencia nessa questão por isso a resolução deu diferente.
+        </li>
+
+
+
+    </ol>
+
+
+
     <h3 class="subtitulo"> Conclusão sobre o conteúdo </h3>
-    <p> Esse conteúdo foi um dos mais novos para mim, nunca tinha estudado. De forma geral achei muito interessante, nunca havia pensado que poderia haver regras e fórmulas em sequências numéricas. Quando ouvi o nome do conteúdo pela primeira vez achei que seria difícil, mas foi muito pelo contrário, entendi muito rápido, e não tive muita dificuldade na realização dos exercícios. E novamente acho muito interessante quando notamos que de certa forma tudo ainda se liga com as funções estudadas. Decidi colocá-lo nesse portfólio justamente por ser novo e me surpreendeu bastante.</p>
+    <p class="texto1"> O conteúdo de progressão aritmética e progressão geométrica foi uma grande novidade para mim, pois nunca tinha estudado ou ouvido falar sobre, mas me surpreendeu muito. Logo quando vi o nome desse conteúdo fiquei um pouco intrigada e pensando que talvez fosse muito difícil, o que foi muito pelo contrário, assim que entendi do que se tratava vi que era muito mais fácil do que estava imaginando. O mais interessante foi o conteúdo em si, nunca imaginaria que poderiam existir regras e fórmulas para sequências numéricas, ou nomes para determinadas sequências. Como meu aprendizado foi bom, não tive dificuldade com os exercícios. Assim como outros conteúdos, esse também se relacionou com as funções estudadas, permitindo novamente uma maior integração entre os conteúdos e também uma forma de não deixar que nos esqueçamos das funções, que acredito que serão muito importantes no decorrer da nossa vida acadêmica. Por todos esses motivos já citados, decidi incluir esse conteúdo no meu portfolio.
+    </p>
+
+    <a href="financeira.html" id="voltar">
+        <- voltar para o conteúdo anterior </a>
+
+            <a href="estatistica.html" id="proximo"> Ir para o próximo conteúdo -> </a>

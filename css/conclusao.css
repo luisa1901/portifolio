@@ -40,11 +40,9 @@ a {
 
 }
 
-p {
+.texto1 {
 
-    text-align: justify;
     padding-right: 200px;
     padding-left: 200px;
-
-
+    text-align: justify;
 }

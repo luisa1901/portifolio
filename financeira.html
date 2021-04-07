@@ -22,11 +22,15 @@
         <a href="index.html">
             <li class="menuu"> Home </li>
         </a>
-        <Li class="menuu"> Introdução </Li>
+        <a href="introducao.html">
+            <Li class="menuu"> Introdução </Li>
+        </a>
         <a href="sumario.html">
             <li class="menuu"> Sumário </li>
         </a>
-        <li class="menuu"> Conclusão </li>
+        <a href="conclusao.html">
+            <li class="menuu"> Conclusão </li>
+        </a>
 
 
     </ul>
@@ -68,8 +72,9 @@
             M = C(1+in)
         </li>
 
-
     </ul>
+
+
 
     <h3 class="subtitulo"> Juros compostos </h3>
     <p class="texto1"> Os juros compostos diferentemente do simples que incide sempre sobre o capital inicial, os juros compostos incidem sobre o capital inicial + os juros do período anterior, também conhecido como juros sobre juros.
@@ -79,8 +84,51 @@
         <li> A fórmula utilizada é:
             M = C(1+i)n
         </li>
-        <h3 class="subtitulo"> Conclusão sobre o conteúdo </h3>
-        <p class="texto1"> Agora é o momento de falar um pouco sobre as minhas experiências com esse conteúdo e mencionar um pouco do meu aprendizado. Pra começar, posso dizer que foi um dos mais fáceis para compreender. O que ajudou muito a entender melhor o conteúdo foi a possibilidade de relacionar com a vida real. As fórmulas deixam tudo mais simples, já que na maioria das questões conseguimos apenas substituir as letras pelos seus respectivos valores. Outro ponto muito interessante para mim foi como relacionamos esse conteúdo com as funções vistas anteriormente. Foi muito interessante poder ver esse conteúdo novamente, já que estudei muito tempo atrás e não lembrava direito, por isso decidi incluí-lo aqui no portfólio.
-        </p>
-
     </ul>
+
+    <h3 class="subtitulo"> Exercício: </h3>
+
+    <p class="texto1"> Essa foi a questão 6 do segundo trabalho sobre capitalização simples e composta e a sua relação com funções. Como não tiveram muitos exercícios sobre matemática financeira nos trabalhos, escolhi esse:
+    </p>
+    <img src="imagens/questaofinanceira.png" id="questao">
+
+    <ol class="texto1">
+
+        <li> Para começar é preciso entender o que a questão pede, nesse caso é necessário pensar um pouco em funções também. A pergunta fala do valor dos juros em função do tempo, ou seja, para começar podemos pensar em calcular os juros, no caso fazer uma equação/função que expresse esse cálculo.
+        </li>
+        <li> Primeiramente vamos focar na capitalização simples, nela como mencionado na explicação temos uma fórmula para calcular os juros: J= C*i*n. Coletando todos os dados que nos foram informados temos que: C= 15000 e i = 0,015 (esse número corresponde a porcentagem transformada em decimal). Com esses dados conseguimos formar a equação: J = 15000*0,015*n.
+        </li>
+        <li> Continuando com a capitalização simples, se utilizarmos a equação formada temos uma função, já que ela representa o valor dos juros em função do tempo: J(n) = 15000 * 0,015*n. Realizando as multiplicações fica: J(n) = 225n.
+            OBS: durante a resolução eu errei nessa parte, pois me confundi na quantidade de zeros do 15000 e acabei fazendo 1500 * 0,015 = 22,5n.
+        </li>
+        <li> Agora que já temos a função pronta é só encontrar os pares para desenhar o gráfico, para isso precisamos apenas escolher alguns números para o “n” (que seria o “x”) para assim encontrarmos o “J” (que seria o “y”). O gráfico ficaria assim:
+        </li>
+
+        <img src="imagens/jurossimples.png" class="graficos">
+    </ol>
+
+    <ol class="texto1">
+        <li> Agora vamos focar apenas na capitalização composta. Seguindo os mesmos passos iniciais pensamos em como fazer uma equação para o cálculo dos juros. Essa é mais complicada que a anterior, já que não tem uma fórmula específica para o cálculo dos juros. Portanto precisamos usar o raciocínio de que o montante menos o capital inicial resulta nos juros.
+        </li>
+        <li> Para isso sabemos que existe uma fórmula específica para o cálculo do montante: M = C(1+i)<sub>n</sub>. Substituindo pelos valores ficaria: M= 15000(1+0,015)<sub>n</sub>.
+        </li>
+        <li>Lembrando que J = M - C. Para formar a função é só trocarmos o montante pela sua equação e trocarmos o C pelo 15000 que foi o capital inicial informado. Ficaria: J = 15000(1+0,015)n - 15000. Resolvendo os parênteses conseguimos a função: J(n) = 15000 * 1,015n -15000.</li>
+        <li>Agora é só fazer o mesmo procedimento da anterior, trocar o “n” por diferentes números, assim você vai encontrar um par de números (x;y). Vai descobrir os juros no tempo n. O gráfico fica assim:
+        </li>
+
+        <img src="imagens/juroscompostos.png" class="graficos">
+    </ol>
+
+    <ol class="texto1">
+        <li>Agora a última parte que é analisar a rentabilidade nas diferentes capitalizações, eu não fiz essa parte no trabalho, pois acabei deixando para fazer depois e acho que esqueci. Podemos analisar através dos gráficos que na capitalização composta os juros são muito maiores, enquanto em 2 meses os juros na capitalização simples ficam 45, já na capitalização composta ficam 450. Além de que na capitalização composta os juros aumentam muito mais de um mês para o outro do que na capitalização simples.
+        </li>
+    </ol>
+    <h3 class="subtitulo"> Conclusão sobre o conteúdo </h3>
+    <p class="texto1"> Agora é o momento de falar um pouco sobre as minhas experiências com esse conteúdo e mencionar um pouco do meu aprendizado. Pra começar, posso dizer que foi um dos mais fáceis para compreender. O que ajudou muito a entender melhor o conteúdo foi a possibilidade de relacionar com a vida real. As fórmulas deixam tudo mais simples, já que na maioria das questões conseguimos apenas substituir as letras pelos seus respectivos valores. Outro ponto muito interessante para mim foi como relacionamos esse conteúdo com as funções vistas anteriormente, nunca esquecendo o que já foi visto. Fiz as atividades propostas rápido e sem grandes dificuldades. Também é um contúdo que cai bastante em alguns vestibulare e Enem então acredito ter sido muito importante poder ver esse conteúdo novamente, já que estudei muito tempo atrás e não lembrava direito, por isso decidi incluí-lo aqui no portfólio.
+    </p>
+
+    <a href="funcaoqua.html" id="voltar">
+        <- Voltar para o conteúdo anterior </a>
+
+
+            <a href="papg.html" id="proximo"> Ir para o próximo conteúdo -> </a>

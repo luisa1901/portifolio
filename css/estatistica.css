@@ -30,7 +30,7 @@ h1 {
 
 }
 
-a {
+.links {
 
     font-family: 'Ranchers', cursive;
     color: white;
@@ -44,8 +44,9 @@ a {
     padding-left: 90px;
     font-size: 45px;
     text-align: left;
-    font-family: 'Lobster', cursive
+    font-family: 'Lobster', cursive;
 }
+
 
 .texto1 {
 
@@ -54,25 +55,62 @@ a {
     text-align: justify;
 }
 
-#questao {
+#tabela1 {
 
     padding-left: 90px;
-    height: 90px;
-    width: 800px;
+    height: 300px;
+    width: 360px;
+
+}
+
+#tabela2 {
+
+
+    padding-left: 90px;
 
 }
 
 .graficos {
 
-    height: 280px;
+    padding-left: 90px;
+}
+
+.medias {
+
+    padding-left: 90px;
+
+}
+
+#questao {
+
+    padding-left: 90px;
+    height: 200px;
+    width: 600px;
+}
+
+#tabela3 {
+    padding-left: 90px;
+    height: 200px;
     width: 300px;
-    padding-top: 30px;
 
 
 }
 
-#voltar {
+#histograma {
+    padding-left: 90px;
+    height: 250px;
+    width: 350px;
 
+
+}
+
+#media {
+
+    height: 200px;
+    width: 350px;
+}
+
+#anterior {
     font-family: 'Ranchers', cursive;
     color: black;
     font-size: 30px;

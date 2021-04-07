@@ -35,8 +35,15 @@ a {
     font-family: 'Ranchers', cursive;
     color: white;
     font-size: 30px;
-    padding: 30px;
 
 
+
+}
+
+.itens {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: black;
+    padding-left: 200px;
 
 }
